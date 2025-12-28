@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import SectionHeader from '../components/SectionHeader';
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Mail, Phone, Clock } from 'lucide-react';
 import { FAQS } from '../constants';
 
 const Contact: React.FC = () => {
@@ -32,8 +32,8 @@ const Contact: React.FC = () => {
                     <Phone size={18} />
                   </div>
                   <div>
-                    <h4 className="font-sans font-bold text-xs tracking-widest uppercase text-brand-espresso mb-1">Call / Text</h4>
-                    <p className="text-brand-charcoal/60 text-sm">(404) 555-0123</p>
+                    <h4 className="font-sans font-bold text-xs tracking-widest uppercase text-brand-espresso mb-1">Call or Text</h4>
+                    <a href="tel:+14704531126" className="text-brand-charcoal/60 text-sm hover:text-brand-gold transition-colors">(470) 453-1126</a>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -45,16 +45,7 @@ const Contact: React.FC = () => {
                     <p className="text-brand-charcoal/60 text-sm">hello@amarielboutique.com</p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 bg-brand-cream border border-brand-gold/20 flex items-center justify-center text-brand-gold flex-shrink-0">
-                    <MapPin size={18} />
-                  </div>
-                  <div>
-                    <h4 className="font-sans font-bold text-xs tracking-widest uppercase text-brand-espresso mb-1">Studio Location</h4>
-                    <p className="text-brand-charcoal/60 text-sm">Private Studio in Buckhead, Atlanta<br />(Full address sent after booking)</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-4">
+                                <div className="flex items-start space-x-4">
                   <div className="w-10 h-10 bg-brand-cream border border-brand-gold/20 flex items-center justify-center text-brand-gold flex-shrink-0">
                     <Clock size={18} />
                   </div>

@@ -10,7 +10,7 @@ const About: React.FC = () => {
         
         <div className="space-y-16">
           <div className="relative">
-            <img src="https://picsum.photos/seed/aboutmain/1200/600" alt="Amariel Boutique Interior" className="w-full h-[500px] object-cover rounded-sm shadow-xl" />
+            <img src="/gallery/braids-3.png" alt="Amariel Boutique Work" className="w-full h-[500px] object-cover rounded-sm shadow-xl" />
             <div className="absolute -bottom-10 right-10 bg-brand-cream border border-brand-gold/30 p-10 max-w-md hidden md:block">
               <h4 className="font-serif text-2xl text-brand-espresso mb-4">Our Mission</h4>
               <p className="font-sans text-sm text-brand-charcoal/70 leading-relaxed italic">

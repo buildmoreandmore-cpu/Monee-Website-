@@ -3,6 +3,10 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, Star, Heart, Clock, Smile } from 'lucide-react';
 import SectionHeader from '../components/SectionHeader';
+import ReferralBanner from '../components/ReferralBanner';
+import TrustBadgeBar from '../components/TrustBadgeBar';
+import ServiceAreaSection from '../components/ServiceAreaSection';
+import StyleQuiz from '../components/StyleQuiz';
 import { SERVICES, TESTIMONIALS } from '../constants';
 
 const Home: React.FC = () => {
@@ -25,9 +29,9 @@ const Home: React.FC = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
-          <img 
-            src="https://picsum.photos/seed/girlbraids/1920/1080" 
-            alt="Happy girl with braids" 
+          <img
+            src="/gallery/braids-2.png"
+            alt="Happy girl with braids"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-brand-espresso/40" />
@@ -39,25 +43,32 @@ const Home: React.FC = () => {
             Braid day doesn't have to end in tears.
           </h1>
           <p className="font-sans text-lg md:text-xl mb-12 tracking-wide opacity-90 max-w-2xl mx-auto">
-            Atlanta's trusted kids' braiding specialist. <span className="font-semibold italic">Patient hands, beautiful results.</span>
+            McDonough's trusted kids' braiding specialist. <span className="font-semibold italic">Patient hands, beautiful results.</span> Serving Henry County & South Metro Atlanta.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="bg-brand-rose px-8 py-4 text-brand-espresso font-sans text-sm tracking-[0.2em] font-bold uppercase shadow-xl hover:scale-105 transition-all w-full sm:w-auto text-center"
             >
               Book Your Daughter's Appointment
             </Link>
-            <Link 
-              to="/gallery" 
-              className="group flex items-center space-x-2 text-brand-offwhite font-sans text-sm tracking-[0.2em] uppercase"
+            <a
+              href="tel:+14704531126"
+              className="group flex items-center space-x-2 text-brand-offwhite font-sans text-sm tracking-[0.2em] uppercase hover:text-brand-gold transition-colors"
             >
-              <span>See Our Work</span>
+              <span>Or Call: (470) 453-1126</span>
               <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </Link>
+            </a>
+          </div>
+          <div className="mt-8 flex items-center justify-center gap-3 flex-wrap">
+            <span className="bg-brand-gold/20 px-4 py-2 rounded-full text-xs tracking-wider uppercase border border-brand-gold/30 text-brand-offwhite">Mobile Service Available</span>
+            <span className="bg-brand-offwhite/10 px-4 py-2 rounded-full text-xs tracking-wider uppercase border border-brand-offwhite/20 text-brand-offwhite">Gentle on Tender Heads</span>
           </div>
         </div>
       </section>
+
+      {/* TRUST BADGE BAR */}
+      <TrustBadgeBar />
 
       {/* 2. THE DIFFERENCE */}
       <section className="py-24 bg-brand-offwhite px-6">
@@ -162,11 +173,20 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <SectionHeader title="Our Work" />
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
+            {[
+              { src: '/gallery/braids-2.png', alt: 'Cornrows with beads' },
+              { src: '/gallery/braids-7.png', alt: 'Geometric cornrows with pink beads' },
+              { src: '/gallery/braids-8.png', alt: 'Honey blonde goddess braids' },
+              { src: '/gallery/braids-3.png', alt: 'Braids with cowrie shells' },
+              { src: '/gallery/braids-4.png', alt: 'Ombre box braids' },
+              { src: '/gallery/braids-6.png', alt: 'Stitch braids' },
+              { src: '/gallery/braids-1.png', alt: 'Locs with flower crown' },
+              { src: '/gallery/braids-5.png', alt: 'Butterfly locs' },
+            ].map((img, i) => (
               <div key={i} className="aspect-[4/5] overflow-hidden relative group cursor-pointer fade-in-scroll">
-                <img 
-                  src={`https://picsum.photos/seed/work${i}/800/1000`} 
-                  alt={`Work sample ${i}`} 
+                <img
+                  src={img.src}
+                  alt={img.alt}
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 border-[0px] group-hover:border-[15px] border-brand-gold/20 transition-all duration-300 pointer-events-none" />
@@ -181,6 +201,9 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* STYLE QUIZ */}
+      <StyleQuiz />
 
       {/* 5. TESTIMONIALS */}
       <section className="py-24 bg-brand-cream overflow-hidden px-6">
@@ -214,9 +237,9 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div className="relative fade-in-scroll">
             <div className="absolute -top-6 -left-6 w-full h-full border-2 border-brand-gold/20 z-0" />
-            <img 
-              src="https://picsum.photos/seed/stylist/800/1100" 
-              alt="The hands behind Amariel Boutique" 
+            <img
+              src="/gallery/braids-5.png"
+              alt="The hands behind Amariel Boutique"
               className="relative z-10 w-full h-auto shadow-2xl rounded-sm"
             />
             <div className="absolute -bottom-10 -right-10 bg-brand-gold p-8 z-20 hidden lg:block max-w-xs shadow-xl">
@@ -259,6 +282,12 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+      {/* SERVICE AREA */}
+      <ServiceAreaSection />
+
+      {/* REFERRAL PROGRAM */}
+      <ReferralBanner />
+
       {/* 7. CTA BANNER */}
       <section className="py-24 bg-brand-rose px-6">
         <div className="max-w-5xl mx-auto text-center">
@@ -267,19 +296,19 @@ const Home: React.FC = () => {
             Weekend slots fill fast. Secure your daughter's appointment today and experience the difference.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="bg-brand-espresso text-brand-offwhite px-12 py-5 font-sans text-xs tracking-widest font-bold uppercase shadow-xl hover:scale-105 transition-all w-full sm:w-auto text-center"
             >
-              Book Now
+              Book Your Daughter's Appointment
             </Link>
-            <Link 
-              to="/contact" 
+            <a
+              href="tel:+14704531126"
               className="group flex items-center space-x-2 text-brand-espresso font-sans text-xs tracking-widest font-bold uppercase"
             >
-              <span>Questions? Send a message</span>
+              <span>Or Call/Text: (470) 453-1126</span>
               <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

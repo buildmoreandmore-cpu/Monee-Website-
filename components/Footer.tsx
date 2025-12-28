@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           <div className="w-12 h-12 border border-brand-gold flex items-center justify-center font-serif text-3xl text-brand-gold mb-6">A</div>
           <h3 className="font-serif text-2xl tracking-widest mb-4">AMARIEL BOUTIQUE</h3>
           <p className="font-sans text-brand-cream/70 text-sm leading-relaxed mb-6">
-            Patient hands for precious heads. Atlanta's trusted specialist for kids' braiding, lashes, and makeup.
+            Patient hands for precious heads. McDonough's trusted specialist for kids' braiding, lashes, and makeup. Serving Henry County, Stockbridge, Hampton & Eagles Landing.
           </p>
           <div className="flex space-x-4">
             <Instagram className="w-5 h-5 cursor-pointer hover:text-brand-gold transition-colors" />
@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
           <ul className="space-y-6">
             <li className="flex items-center space-x-3 text-sm text-brand-cream/70">
               <Phone className="w-4 h-4 text-brand-gold" />
-              <span>(404) 555-0123</span>
+              <a href="tel:+14704531126" className="hover:text-brand-gold transition-colors">Call or Text: (470) 453-1126</a>
             </li>
             <li className="flex items-center space-x-3 text-sm text-brand-cream/70">
               <Mail className="w-4 h-4 text-brand-gold" />
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
             </li>
             <li className="flex items-center space-x-3 text-sm text-brand-cream/70">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span>Buckhead, Atlanta, GA</span>
+              <span>McDonough, GA (Mobile Service Available)</span>
             </li>
           </ul>
         </div>

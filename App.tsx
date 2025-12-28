@@ -10,6 +10,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import FAQ from './pages/FAQ';
 import GeminiStyleAssistant from './components/GeminiStyleAssistant';
+import LeadCapturePopup from './components/LeadCapturePopup';
+import StickyMobileButton from './components/StickyMobileButton';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -36,6 +38,8 @@ const App: React.FC = () => {
       </main>
       <Footer />
       <GeminiStyleAssistant />
+      <LeadCapturePopup />
+      <StickyMobileButton />
     </div>
   );
 };

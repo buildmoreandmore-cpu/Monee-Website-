@@ -16,7 +16,7 @@ export const SERVICES: Service[] = [
     price: "Starting at $45",
     description: "Specialized, gentle braiding for children ages 4+. We take our time to ensure a pain-free experience.",
     features: ['Knotless', 'Feed-ins', 'Ponytails', 'Freestyle'],
-    image: 'https://picsum.photos/seed/braids1/800/1000'
+    image: '/gallery/braids-2.png'
   },
   {
     id: 'lash-extensions',
@@ -24,7 +24,7 @@ export const SERVICES: Service[] = [
     price: "Starting at $85",
     description: "Enhance your natural beauty with precision-applied lashes that feel as light as air.",
     features: ['Classic Sets', 'Hybrid', 'Volume', 'Lash Fills'],
-    image: 'https://picsum.photos/seed/lashes1/800/1000'
+    image: '/gallery/lashes-1.png'
   },
   {
     id: 'makeup-artistry',
@@ -32,7 +32,7 @@ export const SERVICES: Service[] = [
     price: "Starting at $75",
     description: "Professional makeup for your most precious moments, from photoshoots to weddings.",
     features: ['Special Occasions', 'Photoshoots', 'Bridal', 'Soft Glam'],
-    image: 'https://picsum.photos/seed/makeup1/800/1000'
+    image: '/gallery/makeup-1.png'
   }
 ];
 
@@ -63,15 +63,31 @@ export const FAQS: FaqItem[] = [
     answer: "We recommend starting at age 4. This is when most children can sit comfortably for the duration of a gentle braiding session."
   },
   {
+    question: "How much do kids braids cost in McDonough GA?",
+    answer: "Kids braiding services start at $45. Final pricing depends on style complexity and length. Knotless braids, box braids, and cornrows are all available at competitive rates for the Henry County area."
+  },
+  {
+    question: "Do you offer mobile braiding services in Henry County?",
+    answer: "Yes! We offer mobile braiding services throughout Henry County including McDonough, Stockbridge, Hampton, Locust Grove, and Eagles Landing. We come to your home for your convenience."
+  },
+  {
+    question: "Are knotless braids better for tender-headed kids?",
+    answer: "Yes, knotless braids are gentler on the scalp and ideal for tender-headed children. The technique distributes tension more evenly, making it our most popular style for sensitive little ones."
+  },
+  {
     question: "Do you require a deposit?",
     answer: "Yes, a non-refundable $25 deposit is required to secure your appointment. This amount is applied toward your final service total."
   },
   {
-    question: "How long do the sessions usually take?",
-    answer: "Kids' braiding sessions typically last between 2 to 4 hours depending on the complexity of the style and the child's comfort."
+    question: "How long do kids braids last?",
+    answer: "Properly maintained kids braids typically last 2-4 weeks. We provide aftercare instructions and recommend satin bonnets to extend the life of the style."
   },
   {
-    question: "Can I bring my own hair extensions?",
-    answer: "We prefer to provide the high-quality, pre-stretched hair ourselves to ensure the best and most gentle results, but we can discuss specific requests during booking."
+    question: "How long do the braiding sessions usually take?",
+    answer: "Kids' braiding sessions typically last between 2 to 4 hours depending on the complexity of the style and the child's comfort. We never rush - your daughter's comfort comes first."
+  },
+  {
+    question: "What areas near McDonough do you serve?",
+    answer: "We serve all of Henry County including McDonough, Stockbridge, Hampton, Locust Grove, Eagles Landing, and surrounding areas in South Metro Atlanta. Mobile appointments available!"
   }
 ];
