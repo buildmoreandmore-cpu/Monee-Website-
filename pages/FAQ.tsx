@@ -37,8 +37,8 @@ const FAQ: React.FC = () => {
 
         <div className="mt-20 text-center p-10 bg-brand-rose/10 border border-brand-rose/20">
           <h4 className="font-serif text-2xl text-brand-espresso mb-4">Still have questions?</h4>
-          <p className="font-sans text-brand-charcoal/70 mb-8">We're happy to chat. Reach out via text or email and we'll get back to you within 24 hours.</p>
-          <a href="mailto:hello@amarielboutique.com" className="bg-brand-espresso text-brand-offwhite px-8 py-3 font-sans text-xs tracking-widest uppercase shadow-md inline-block">CONTACT US</a>
+          <p className="font-sans text-brand-charcoal/70 mb-8">We're happy to chat. Call or text us and we'll get back to you within 24 hours.</p>
+          <a href="tel:+14704531126" className="bg-brand-espresso text-brand-offwhite px-8 py-3 font-sans text-xs tracking-widest uppercase shadow-md inline-block">CALL (470) 453-1126</a>
         </div>
       </div>
     </div>

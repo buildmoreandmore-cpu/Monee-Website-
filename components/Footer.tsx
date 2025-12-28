@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Instagram, Facebook, Mail, Phone, MapPin, Star } from 'lucide-react';
+import { Instagram, Phone, MapPin, Star } from 'lucide-react';
 import { NAV_ITEMS } from '../constants';
 
 const Footer: React.FC = () => {
@@ -17,7 +17,6 @@ const Footer: React.FC = () => {
           </p>
           <div className="flex space-x-4">
             <Instagram className="w-5 h-5 cursor-pointer hover:text-brand-gold transition-colors" />
-            <Facebook className="w-5 h-5 cursor-pointer hover:text-brand-gold transition-colors" />
           </div>
         </div>
 
@@ -53,10 +52,6 @@ const Footer: React.FC = () => {
             <li className="flex items-center space-x-3 text-sm text-brand-cream/70">
               <Phone className="w-4 h-4 text-brand-gold" />
               <a href="tel:+14704531126" className="hover:text-brand-gold transition-colors">Call or Text: (470) 453-1126</a>
-            </li>
-            <li className="flex items-center space-x-3 text-sm text-brand-cream/70">
-              <Mail className="w-4 h-4 text-brand-gold" />
-              <span>hello@amarielboutique.com</span>
             </li>
             <li className="flex items-center space-x-3 text-sm text-brand-cream/70">
               <MapPin className="w-4 h-4 text-brand-gold" />
