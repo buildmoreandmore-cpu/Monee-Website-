@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import SectionHeader from '../components/SectionHeader';
-import { Mail, Phone, Clock } from 'lucide-react';
+import { Phone, Clock } from 'lucide-react';
 import { FAQS } from '../constants';
 
 const Contact: React.FC = () => {
@@ -37,15 +37,6 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 bg-brand-cream border border-brand-gold/20 flex items-center justify-center text-brand-gold flex-shrink-0">
-                    <Mail size={18} />
-                  </div>
-                  <div>
-                    <h4 className="font-sans font-bold text-xs tracking-widest uppercase text-brand-espresso mb-1">Email</h4>
-                    <p className="text-brand-charcoal/60 text-sm">hello@amarielboutique.com</p>
-                  </div>
-                </div>
-                                <div className="flex items-start space-x-4">
                   <div className="w-10 h-10 bg-brand-cream border border-brand-gold/20 flex items-center justify-center text-brand-gold flex-shrink-0">
                     <Clock size={18} />
                   </div>
