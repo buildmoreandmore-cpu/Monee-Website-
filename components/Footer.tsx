@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
             </li>
             <li className="pt-4">
               <a
-                href="https://share.google/V0ivuKUGLLTrhFFQg"
+                href="https://g.page/r/Cf-fMHCEdA6sEAE/review"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-brand-gold/20 hover:bg-brand-gold/30 text-brand-gold px-4 py-2 rounded-sm transition-colors text-sm"
