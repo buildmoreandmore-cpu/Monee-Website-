@@ -11,7 +11,7 @@
 - **Service Area:** McDonough, Stockbridge, Hampton, Locust Grove, Eagles Landing, Henry County GA
 - **Phone:** (470) 453-1126
 - **Email:** hello@amarielboutique.com
-- **Website:** https://amariel-boutique.vercel.app
+- **Website:** https://theamarielboutique.com
 - **Hours:** Tuesday-Saturday 9am-6pm
 
 ## What We Do
@@ -87,7 +87,7 @@ A: Yes, a $25 non-refundable deposit is required to book.
 ## Contact & Booking
 
 To book an appointment:
-1. Visit: https://amariel-boutique.vercel.app/#/contact
+1. Visit: https://theamarielboutique.com/#/contact
 2. Call/Text: (470) 453-1126
 3. Email: hello@amarielboutique.com
 

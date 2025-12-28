@@ -19,7 +19,7 @@ const ReferralBanner: React.FC = () => {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="sms:?body=I%20found%20the%20best%20kids%20braider%20in%20McDonough!%20She%27s%20so%20gentle%20and%20patient.%20Check%20her%20out%3A%20https%3A%2F%2Famariel-boutique.vercel.app"
+            href="sms:?body=I%20found%20the%20best%20kids%20braider%20in%20McDonough!%20She%27s%20so%20gentle%20and%20patient.%20Check%20her%20out%3A%20https%3A%2F%2Ftheamarielboutique.com"
             className="bg-brand-gold text-brand-offwhite px-8 py-4 font-sans text-xs tracking-widest uppercase hover:bg-[#A37D52] transition-colors"
           >
             Text a Friend Now

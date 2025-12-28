@@ -1,5 +1,5 @@
 # Amariel Boutique - Kids Braiding McDonough GA
-# https://amariel-boutique.vercel.app
+# https://theamarielboutique.com
 
 User-agent: *
 Allow: /
@@ -27,7 +27,7 @@ User-agent: PerplexityBot
 Allow: /
 
 # Sitemap location
-Sitemap: https://amariel-boutique.vercel.app/sitemap.xml
+Sitemap: https://theamarielboutique.com/sitemap.xml
 
 # LLMs.txt for AI understanding
-# See: https://amariel-boutique.vercel.app/llms.txt
+# See: https://theamarielboutique.com/llms.txt
