@@ -229,6 +229,17 @@ const Home: React.FC = () => {
               </div>
             ))}
           </div>
+          <div className="mt-12 text-center">
+            <a
+              href="https://share.google/V0ivuKUGLLTrhFFQg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-brand-espresso text-brand-offwhite px-8 py-4 font-sans text-xs tracking-widest uppercase hover:bg-brand-gold transition-colors"
+            >
+              <Star size={16} fill="currentColor" />
+              Leave Us a Review on Google
+            </a>
+          </div>
         </div>
       </section>
 

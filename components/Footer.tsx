@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Instagram, Facebook, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Facebook, Mail, Phone, MapPin, Star } from 'lucide-react';
 import { NAV_ITEMS } from '../constants';
 
 const Footer: React.FC = () => {
@@ -61,6 +61,17 @@ const Footer: React.FC = () => {
             <li className="flex items-center space-x-3 text-sm text-brand-cream/70">
               <MapPin className="w-4 h-4 text-brand-gold" />
               <span>McDonough, GA (Mobile Service Available)</span>
+            </li>
+            <li className="pt-4">
+              <a
+                href="https://share.google/V0ivuKUGLLTrhFFQg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-brand-gold/20 hover:bg-brand-gold/30 text-brand-gold px-4 py-2 rounded-sm transition-colors text-sm"
+              >
+                <Star className="w-4 h-4" fill="currentColor" />
+                Leave Us a Review
+              </a>
             </li>
           </ul>
         </div>
